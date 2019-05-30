@@ -1,0 +1,116 @@
+#app {
+    display: flex;
+    align-items: center;
+    height: 100vh;
+}
+
+.intro {
+    width: 1000px;
+    margin: 0 auto;
+    text-align: center;
+
+    button {
+        margin: 17px;
+        background: #7431a6;
+        border: none;
+        color: white;
+        width: 200px;
+        height: 50px;
+        font-size: 17px;
+        cursor: pointer;
+    }
+
+    div {
+        &:nth-child(1) {
+                font-size: 30px;
+                margin: 30px;
+            
+        }
+        &:nth-child(2) {
+            width: 60%;
+            margin: 0 auto;
+            padding: 30px 0px;
+            font-size: 19px;
+    }
+}
+
+}
+
+.test {
+    margin: 0 auto;
+    width: 500px;
+    text-align: center;
+
+    &__title {
+        margin: 30px;
+        font-size: 20px;
+        position: relative;
+        height: 50px;
+
+        div {
+            &:nth-child(2) {
+                position: absolute;
+                right: 0;
+                left: 0;
+                margin: 9px auto;
+                width: 50px;
+            }
+
+    }
+}
+
+    &__answer {
+        display: flex;
+        flex-direction: column;
+
+        button {
+            width: 200px;
+            margin: 10px auto;
+            background: #9c04ae;
+            border: none;
+            height: 50px;
+            color: white;
+            font-size: 15px;
+            cursor: pointer;
+        }
+    }
+    .bar {
+        height: 16px;
+        background: #85fc88;
+        transition: 0.5s;
+        margin: 30px;
+        text-align: left;
+        padding-left: 6px;
+    }
+}
+
+.result {
+    width: 500px;
+    margin: 0 auto;
+    text-align: center;
+
+    &__title {
+        font-size: 20px;
+        font-weight: bold;
+        margin: 30px;
+    }
+
+    &__description {
+        font-size: 18px;
+        margin: 30px;
+    }
+    button {
+        margin: 17px;
+        background: #7431a6;
+        border: none;
+        color: white;
+        width: 200px;
+        height: 50px;
+        font-size: 17px;
+        cursor: pointer;
+    }
+}
+
+img {
+    width: 500px;
+}
