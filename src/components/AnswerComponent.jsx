@@ -12,8 +12,7 @@ class AnswerComponent extends React.Component {
         this.progress = this.progress.bind(this);
       }
 
-      pressAnswer(event) {
-        
+      pressAnswer(event) {        
         const {actionNoAnswer, 
                actionYesAnswer, 
                actionMaybeAnswer, 
