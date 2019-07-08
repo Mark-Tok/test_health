@@ -1,7 +1,10 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
 #app {
     display: flex;
     align-items: center;
     height: 100vh;
+    font-family: 'Roboto', sans-serif;
 }
 
 .intro {
@@ -18,21 +21,30 @@
         height: 50px;
         font-size: 17px;
         cursor: pointer;
+
+        &:hover {
+            background: #5e2986;
+        }
+
+        &:active {
+            background: #3b1a55
+        }
     }
 
     div {
         &:nth-child(1) {
-                font-size: 30px;
-                margin: 30px;
-            
+            font-size: 30px;
+            margin: 30px;
+
         }
+
         &:nth-child(2) {
             width: 60%;
             margin: 0 auto;
             padding: 30px 0px;
             font-size: 19px;
+        }
     }
-}
 
 }
 
@@ -56,8 +68,8 @@
                 width: 50px;
             }
 
+        }
     }
-}
 
     &__answer {
         display: flex;
@@ -72,15 +84,25 @@
             color: white;
             font-size: 15px;
             cursor: pointer;
+
+            &:hover {
+                background: #7e058d;
+            }
+
+            &:active {
+                background: #680574
+            }
         }
     }
+
     .bar {
         height: 16px;
-        background: #85fc88;
+        background: #091cff;
         transition: 0.5s;
         margin: 30px;
         text-align: left;
-        padding-left: 6px;
+        padding: 6px;
+        color: white;
     }
 }
 
@@ -99,6 +121,7 @@
         font-size: 18px;
         margin: 30px;
     }
+
     button {
         margin: 17px;
         background: #7431a6;
@@ -108,9 +131,21 @@
         height: 50px;
         font-size: 17px;
         cursor: pointer;
+
+        &:hover {
+            background: #7e058d;
+        }
+
+        &:active {
+            background: #680574
+        }
     }
 }
 
 img {
     width: 500px;
+}
+
+button:focus {
+    outline: 0;
 }
